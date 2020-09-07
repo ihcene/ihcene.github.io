@@ -35,7 +35,9 @@
             </div>		
             <!-- Start Header menu for mobile -->
             <div class="header__mobile js-header-menu">
-                <a href="#" class="header__mobile-brand">Menu</a>
+                <a href="#" class="brand">
+                    <img src="assets/brand/logo-labs.png" class="logo" />
+                </a>
                 <button class="toggle-bar header__mobile-toggle">
                     <span class="fa fa-remove"></span>
                 </button>
@@ -235,8 +237,8 @@
                     <div class="col-md-8 offset-lg-2">
                         <fieldset class="section__cta-subscribe">
                             <form name="ctaSubscribe" action="https://mailthis.to/aritylabs" method="POST" class="js-submit-remotly">
-                                <input type="tel" class="section__cta-subscribe-input" placeholder="Mon numéro de téléphone" required />
-                                <button type="submit" class="btn btn-rounded btn-white section__cta-subscribe-button btn-icon-right">Me rappeler <i class="fa fa-long-arrow-right"></i></button>
+                                <input type="tel" class="section__cta-subscribe-input" placeholder="Mon numéro de téléphone" name="number" required />
+                                <button type="submit" value="Send" class="btn btn-rounded btn-white section__cta-subscribe-button btn-icon-right">Me rappeler <i class="fa fa-long-arrow-right"></i></button>
                             </form>
 
                         </fieldset>
