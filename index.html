@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" href="favicon/smooth-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="favicon/smooth-144x144.png" sizes="144x144">
     <link rel="icon" type="image/png" href="favicon/smooth-196x196.png" sizes="196x196">
-
+    <link rel="preload" type="text/html" href="./Bricosto.html"
     <link rel="apple-touch-icon" href="favicon/smooth-favicon-196x196.png">
 
     <!-- Template stylesheet -->
@@ -287,9 +287,9 @@
                     <div class="owl-active-nav">
                         <div class="owl-carousel js-owl-clients">
                             <!-- Start client 01 -->
-                            <div class="item">
-                                <a href="#" class="client">
-                                        <img src="assets/images/clients/Legrand_hover.png" class="client_logo-hover" alt="Client name" />
+                            <div class="tabs__navigation-item js-nav-item">
+                                <a class="client" id="legrand-tab" data-toggle="tab" href="#legrand" role="tab" aria-controls="legrand" aria-selected="true">
+                                    <img src="assets/images/clients/Legrand_hover.png" class="client_logo-hover" alt="Client name" />
                                     <img src="assets/images/clients/Legrand_.png" class="client_logo" alt="Client name" />
                                 </a>
                             </div>   
@@ -364,7 +364,23 @@
         </div>
     </section>
      <!-- End Section -->
-
+     <div class="tab-content tabs__content" id="myTabContent">
+        <!-- Start tab pane 01 -->
+        <div class="tab-pane fade show active" id="legrand" role="tabpanel" aria-labelledby="legrand-tab">
+            <div class="row">
+                <div class="col-lg-8 order-lg-4 mb-40">
+                    <iframe width="650" height="350" src="https://www.youtube.com/embed/fFNnU37J7EU?autoplay=1"></iframe>
+                </div>
+                <div class="col-lg-4 align-self-center mb-40">
+                    <h2>The all-in-one platform task management</h2>
+                    <p>
+                    Et odio honestatis ius. Exerci numquam consequuntur no mei. Ut sed ornatus tibique, fabellas pertinax est cu. Te odio omittam mea, ea tractatos dissentiunt complectitur nec.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- End tab pane 01 -->
+     </div>
     <!-- Start Back to top -->
     <div class="back-to-top js-back-to-top">
         <span class="fa fa-angle-double-up back-to-top__icon"></span>

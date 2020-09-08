@@ -8434,7 +8434,7 @@ button:hover, button:focus, button:active {
 }
 
 .tabs__content {
-    float: left;
+    float: center;
     width: 100%;
 }
 
