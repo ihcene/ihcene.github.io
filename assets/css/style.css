@@ -5966,7 +5966,7 @@ PARTIALS - Header,  Masthead, Footer, etc
     content: '';
     width: 60px;
     height: 10px;
-    background-image: url("../../assets/images/screenshot/browser-clos.png");
+    background-image: url("/assets/images/screenshot/browser-clos.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: auto 100%;
@@ -5977,7 +5977,7 @@ PARTIALS - Header,  Masthead, Footer, etc
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .masthead__browser-wrapper .owl-carousel:after {
-        background-image: url("../../assets/images/screenshot/browser-close@2x.png");
+        background-image: url("/assets/images/screenshot/browser-close@2x.png");
     }
 }
 
@@ -8434,7 +8434,7 @@ button:hover, button:focus, button:active {
 }
 
 .tabs__content {
-    float: left;
+    float: center;
     width: 100%;
 }
 
