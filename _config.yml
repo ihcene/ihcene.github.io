@@ -1,0 +1,16 @@
+
+
+title: Arity Labs
+email: contact@aritylabs.com
+description: >-
+  Arity Labs est société d'ingénierie logicielle et un accélérateur de startups situé à El Achour, Algérie"
+baseurl: ""
+url: ""
+twitter_username: ihcene
+github_username:  ihcene
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+layout: 'default'
