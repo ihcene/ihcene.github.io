@@ -23,10 +23,16 @@ layout: default
                 <div class="col-lg-12 text-center">
                     <div class="video__background">
                         <div class="video__background-wrapper js-video-background-wrapper">
-                            <div id="player" poster="assets/images/video-cover@2x.png" data-plyr-provider="youtube"
-                                data-plyr-embed-id="94TC3GB4aHI"></div>
+                            <div class="plyr__video-embed" id="player">
+                                <iframe
+                                    src="https://www.youtube.com/embed/94TC3GB4aHI?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+                                    allowfullscreen
+                                    allowtransparency
+                                    allow="autoplay"
+                                ></iframe>
+                            </div>
                         </div>
-                        <img src="assets/images/mackbook-bg@2x.png"
+                        <img src="/assets/images/mackbook-bg.png"
                             class="video__background-image js-video-background-image" alt="" />
                     </div>
                 </div>
